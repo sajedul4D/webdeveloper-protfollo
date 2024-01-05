@@ -1,0 +1,31 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rubik Lines', system-ui;   
+}
+nav{
+    display: flex;
+}
+.blue{
+    color: rgb(187, 143, 62);
+}
+.nav-text{
+    color: #181818;
+font-size: 85px;
+
+font-weight: 700; 
+}
+nav >ul{
+    display: flex;
+
+}
+nav li{
+    list-style: none;
+    margin: 50px;
+}
+nav a{
+    text-decoration: none;
+}
+.back{
+    border-radius: 5px;
+    background: orange;
+}
