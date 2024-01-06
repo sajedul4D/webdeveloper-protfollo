@@ -78,6 +78,9 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+}
 .about{
     padding: 130px;
     border-radius: 5px;
@@ -108,4 +111,25 @@ main{
 }
 #what-i-do{
     padding: 30px 150px;
+}
+.skills-container{
+    display:flex;
+    gap: 24px;
+}
+.skill:hover{
+    transform: scale(1.s);
+ padding: 30px; 
+
+ border-radius: 5px; 
+ background: #e4c8c8;
+ box-shadow: 0px 6px 50px rgb(0, 0,0,0.06 );
+
+}
+.skill-description{
+    color: color: #757575;;
+}
+.resume-colume-title{
+color  :#474747;
+font-size: 30px;
+font-weight: 700;  
 }
